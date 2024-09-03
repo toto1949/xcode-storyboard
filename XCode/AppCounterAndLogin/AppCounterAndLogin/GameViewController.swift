@@ -2,7 +2,7 @@
 //  GameViewController.swift
 //  AppCounterAndLogin
 //
-//  Created by Taooufiq El moutaoouakil on 9/2/24.
+//  Created by Taooufiq El Moutaoouakil on 9/2/24.
 //
 
 import UIKit
@@ -17,26 +17,22 @@ class GameViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Additional setup if needed
-    }
+        }
     
-    @IBAction func loginAction(_ sender: Any) {
+    @IBAction func loginAction(_ sender: UIButton) {
         guard let usernameText = username.text, !usernameText.isEmpty,
               let passwordText = password.text, !passwordText.isEmpty else {
             print("Missing username or password")
+            showAlert(message: "Missing username or password")
             return
         }
-        
+
         print("Logged in with username: \(usernameText) and password: \(passwordText)")
     }
-    @IBAction func counterAction(_ sender: Any) {
-    }
     
-    @IBAction func increment(_ sender: Any) {
+    private func showAlert(message: String) {
+        let alert = UIAlertController(title: "Login Error", message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
     }
-    @IBAction func decremeent(_ sender: Any) {
-    }
-    
-    
 }
