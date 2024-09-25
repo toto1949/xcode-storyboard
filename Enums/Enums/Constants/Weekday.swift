@@ -1,8 +1,9 @@
-//
-//  Weekday.swift
-//  Enums
-//
-//  Created by Taooufiq El moutaoouakil on 9/17/24.
-//
-
-import Foundation
+enum Weekday: String {
+    case monday = "Monday"
+    case tuesday = "Tuesday"
+    case wednesday = "Wednesday"
+    case thursday = "Thursday"
+    case friday = "Friday"
+    case saturday = "Saturday"
+    case sunday = "Sunday"
+}

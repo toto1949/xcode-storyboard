@@ -1,8 +1,8 @@
-//
-//  MovieCell.swift
-//  Enums
-//
-//  Created by Taooufiq El moutaoouakil on 9/17/24.
-//
-
 import Foundation
+import UIKit
+class MovieCell : UITableViewCell {
+    @IBOutlet weak var idMovie: UILabel!
+    @IBOutlet weak var nameMovie: UILabel!
+    
+    
+}

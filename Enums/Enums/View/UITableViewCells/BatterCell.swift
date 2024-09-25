@@ -1,8 +1,7 @@
-//
-//  BatterCell.swift
-//  Enums
-//
-//  Created by Taooufiq El moutaoouakil on 9/17/24.
-//
+import UIKit
+class BatterCell : UITableViewCell {
 
-import Foundation
+    @IBOutlet weak var idBattar: UILabel!
+    
+    @IBOutlet weak var typeBatar: UILabel!
+}

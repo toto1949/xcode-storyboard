@@ -1,4 +1,4 @@
 import Foundation
-enum URDataSource : String {
+enum URLDataSource : String {
     case apiURL = "https://www.jsonkeeper.com/b/91YX"
 }

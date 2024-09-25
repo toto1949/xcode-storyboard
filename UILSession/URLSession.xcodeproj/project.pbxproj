@@ -18,6 +18,7 @@
 		442131DF2C98C87100DAA521 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442131DE2C98C87100DAA521 /* DataModel.swift */; };
 		442131E12C98C8E800DAA521 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442131E02C98C8E800DAA521 /* Constants.swift */; };
 		442131E32C98E25F00DAA521 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442131E22C98E25F00DAA521 /* UserCell.swift */; };
+		44A4DF3E2C9E123500EEFD4C /* Trade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A4DF3D2C9E123500EEFD4C /* Trade.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		442131DE2C98C87100DAA521 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		442131E02C98C8E800DAA521 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		442131E22C98E25F00DAA521 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		44A4DF3D2C9E123500EEFD4C /* Trade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trade.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				442131DE2C98C87100DAA521 /* DataModel.swift */,
+				44A4DF3D2C9E123500EEFD4C /* Trade.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				442131DB2C98C2AA00DAA521 /* APIManager.swift in Sources */,
 				442131CB2C98C28C00DAA521 /* ViewController.swift in Sources */,
 				442131C72C98C28C00DAA521 /* AppDelegate.swift in Sources */,
+				44A4DF3E2C9E123500EEFD4C /* Trade.swift in Sources */,
 				442131E12C98C8E800DAA521 /* Constants.swift in Sources */,
 				442131C92C98C28C00DAA521 /* SceneDelegate.swift in Sources */,
 				442131DF2C98C87100DAA521 /* DataModel.swift in Sources */,
